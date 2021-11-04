@@ -1,0 +1,265 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7032, room 16
+tail 8
+chksum 0xed
+load 0x3ffe8408, len 24, room 0
+tail 8
+chksum 0x54
+load 0x3ffe8420, len 3328, room 0
+tail 0
+chksum 0x26
+csum 0x26
+I (43) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader
+I (43) boot: compile time 20:32:23
+I (44) boot: SPI Speed      : 40MHz
+I (50) boot: SPI Mode       : DOUT
+I (57) boot: SPI Flash Size : 1MB
+I (63) boot: Partition Table:
+I (68) boot: ## Label            Usage          Type ST Offset   Length
+I (79) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (91) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (102) boot:  2 factory          factory app      00 00 00010000 000f0000
+I (114) boot: End of partition table
+I (121) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x17078 ( 94328) map
+I (175) esp_image: segment 1: paddr=0x00027090 vaddr=0x40227088 size=0x05cbc ( 23740) map
+I (186) esp_image: segment 2: paddr=0x0002cd54 vaddr=0x3ffe8000 size=0x003dc (   988) load
+I (187) esp_image: segment 3: paddr=0x0002d138 vaddr=0x40100000 size=0x00080 (   128) load
+I (200) esp_image: segment 4: paddr=0x0002d1c0 vaddr=0x40100080 size=0x045a4 ( 17828) load
+I (221) boot: Loaded app from partition at offset 0x10000
+I (337) gpio: GPIO[0]| InputEn: 0| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0
+I (339) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0
+I (350) main: Initialized
+I (356) main: *******************
+
+I (361) main: Sensor Value: 0
+I (367) main: Voltage: 0.0
+I (867) main: *******************
+
+I (868) main: Sensor Value: 0
+I (869) main: Voltage: 0.0
+I (1367) main: *******************
+
+I (1368) main: Sensor Value: 0
+I (1369) main: Voltage: 0.0
+I (1867) main: *******************
+
+I (1868) main: Sensor Value: 0
+I (1869) main: Voltage: 0.0
+I (2367) main: *******************
+
+I (2368) main: Sensor Value: 0
+I (2369) main: Voltage: 0.0
+I (2867) main: *******************
+
+I (2868) main: Sensor Value: 0
+I (2869) main: Voltage: 0.0
+I (3367) main: *******************
+
+I (3368) main: Sensor Value: 0
+I (3369) main: Voltage: 0.0
+I (3867) main: *******************
+
+I (3868) main: Sensor Value: 1120
+I (3869) main: Voltage: 0.1
+I (4367) main: *******************
+
+I (4368) main: Sensor Value: 3056
+I (4369) main: Voltage: 0.3
+I (4867) main: *******************
+
+I (4868) main: Sensor Value: 3872
+I (4869) main: Voltage: 0.4
+I (5367) main: *******************
+
+I (5368) main: Sensor Value: 4576
+I (5369) main: Voltage: 0.5
+I (5867) main: *******************
+
+I (5868) main: Sensor Value: 5056
+I (5869) main: Voltage: 0.6
+I (6367) main: *******************
+
+I (6368) main: Sensor Value: 5264
+I (6369) main: Voltage: 0.6
+I (6867) main: *******************
+
+I (6868) main: Sensor Value: 6144
+I (6869) main: Voltage: 0.7
+I (7367) main: *******************
+
+I (7368) main: Sensor Value: 6800
+I (7369) main: Voltage: 0.8
+I (7867) main: *******************
+
+I (7868) main: Sensor Value: 7488
+I (7869) main: Voltage: 0.9
+I (8368) main: *******************
+
+I (8369) main: Sensor Value: 7984
+I (8370) main: Voltage: 1.0
+I (8868) main: *******************
+
+I (8869) main: Sensor Value: 7872
+I (8870) main: Voltage: 0.9
+I (9368) main: *******************
+
+I (9369) main: Sensor Value: 9104
+I (9370) main: Voltage: 1.1
+I (9868) main: *******************
+
+I (9869) main: Sensor Value: 10208
+I (9870) main: Voltage: 1.2
+I (10368) main: *******************
+
+I (10369) main: Sensor Value: 11056
+I (10370) main: Voltage: 1.3
+I (10868) main: *******************
+
+I (10869) main: Sensor Value: 13040
+I (10870) main: Voltage: 1.6
+I (11368) main: *******************
+
+I (11369) main: Sensor Value: 14256
+I (11370) main: Voltage: 1.8
+I (11868) main: *******************
+
+I (11869) main: Sensor Value: 16272
+I (11870) main: Voltage: 2.0
+I (12368) main: *******************
+
+I (12369) main: Sensor Value: 18032
+I (12370) main: Voltage: 2.2
+I (12868) main: *******************
+
+I (12869) main: Sensor Value: 19184
+I (12870) main: Voltage: 2.4
+I (13368) main: *******************
+
+I (13369) main: Sensor Value: 21584
+I (13370) main: Voltage: 2.7
+I (13868) main: *******************
+
+I (13869) main: Sensor Value: 23792
+I (13870) main: Voltage: 3.0
+I (14368) main: *******************
+
+I (14369) main: Sensor Value: 23712
+I (14370) main: Voltage: 3.0
+I (14868) main: *******************
+
+I (14869) main: Sensor Value: 26016
+I (14870) main: Voltage: 3.2
+I (15368) main: *******************
+
+I (15369) main: Sensor Value: 26016
+I (15370) main: Voltage: 3.2
+I (15868) main: *******************
+
+I (15869) main: Sensor Value: 26016
+I (15870) main: Voltage: 3.2
+I (16368) main: *******************
+
+I (16369) main: Sensor Value: 26016
+I (16370) main: Voltage: 3.2
+I (16868) main: *******************
+
+I (16869) main: Sensor Value: 26016
+I (16870) main: Voltage: 3.2
+I (17368) main: *******************
+
+I (17369) main: Sensor Value: 26016
+I (17370) main: Voltage: 3.2
+I (17868) main: *******************
+
+I (17869) main: Sensor Value: 26016
+I (17870) main: Voltage: 3.2
+I (18369) main: *******************
+
+I (18370) main: Sensor Value: 26016
+I (18371) main: Voltage: 3.2
+I (18869) main: *******************
+
+I (18870) main: Sensor Value: 26016
+I (18871) main: Voltage: 3.2
+I (19369) main: *******************
+
+I (19370) main: Sensor Value: 20240
+I (19371) main: Voltage: 2.5
+I (19869) main: *******************
+
+I (19870) main: Sensor Value: 15696
+I (19871) main: Voltage: 1.9
+I (20369) main: *******************
+
+I (20370) main: Sensor Value: 4992
+I (20371) main: Voltage: 0.6
+I (20869) main: *******************
+
+I (20870) main: Sensor Value: 0
+I (20871) main: Voltage: 0.0
+I (21369) main: *******************
+
+I (21370) main: Sensor Value: 0
+I (21371) main: Voltage: 0.0
+I (21869) main: *******************
+
+I (21870) main: Sensor Value: 12656
+I (21871) main: Voltage: 1.6
+I (22369) main: *******************
+
+I (22370) main: Sensor Value: 22832
+I (22371) main: Voltage: 2.8
+I (22869) main: *******************
+
+I (22870) main: Sensor Value: 26016
+I (22871) main: Voltage: 3.2
+I (23369) main: *******************
+
+I (23370) main: Sensor Value: 26016
+I (23371) main: Voltage: 3.2
+I (23869) main: *******************
+
+I (23870) main: Sensor Value: 26016
+I (23871) main: Voltage: 3.2
+I (24369) main: *******************
+
+I (24370) main: Sensor Value: 26016
+I (24371) main: Voltage: 3.2
+I (24869) main: *******************
+
+I (24870) main: Sensor Value: 26016
+I (24871) main: Voltage: 3.2
+I (25369) main: *******************
+
+I (25370) main: Sensor Value: 26016
+I (25371) main: Voltage: 3.2
+I (25869) main: *******************
+
+I (25870) main: Sensor Value: 26016
+I (25871) main: Voltage: 3.2
+I (26369) main: *******************
+
+I (26370) main: Sensor Value: 26016
+I (26371) main: Voltage: 3.2
+I (26869) main: *******************
+
+I (26870) main: Sensor Value: 26016
+I (26871) main: Voltage: 3.2
+I (27369) main: *******************
+
+I (27370) main: Sensor Value: 26016
+I (27371) main: Voltage: 3.2
+I (27869) main: *******************
+
+I (27870) main: Sensor Value: 26016
+I (27871) main: Voltage: 3.2
+I (28370) main: *******************
+
+I (28371) main: Sensor Value: 26016
+I (28372) main: Voltage: 3.2
+I (28870) main: *******************
+
+I (28871) main: Sensor Value: 26016
+I (28872) main: Voltage: 3.2
