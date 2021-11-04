@@ -22,10 +22,10 @@ void app_main(void)
     // unitTesti2cMasterInit_(NULL);
 
     // Integration test
-    // intergrationTest1(NULL);
+    intergrationTest1(NULL);
 
     // Verification
-    xTaskCreate(i2cTask_, "i2cTask_", 2048, NULL, 10, NULL);
+    // xTaskCreate(i2cTask_, "i2cTask_", 2048, NULL, 10, NULL);
 
     // SystemVerificationDriver();
 

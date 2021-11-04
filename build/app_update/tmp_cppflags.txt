@@ -1,1 +1,1 @@
-1 i2c v3.4-49-g0f200b46-dirty
+942d11b-dirty i2c v3.4-49-g0f200b46-dirty

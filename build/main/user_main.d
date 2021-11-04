@@ -1,7 +1,7 @@
-user_main.o: C:/esp/Lab3/main/user_main.c \
+user_main.o: C:/esp/lab3/main/user_main.c \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- C:/esp/Lab3/build/include/sdkconfig.h \
+ C:/esp/lab3/build/include/sdkconfig.h \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -42,7 +42,7 @@ user_main.o: C:/esp/Lab3/main/user_main.c \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/semphr.h \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/driver/hw_timer.h \
- C:/esp/Lab3/main/tests.h C:/esp/Lab3/main/I2C_UserMod.h \
+ C:/esp/lab3/main/tests.h C:/esp/lab3/main/I2C_UserMod.h \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/driver/i2c.h \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  C:/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h
@@ -51,7 +51,7 @@ C:/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 
 C:/esp_sdk/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-C:/esp/Lab3/build/include/sdkconfig.h:
+C:/esp/lab3/build/include/sdkconfig.h:
 
 C:/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -133,13 +133,13 @@ C:/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h:
 
 C:/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/driver/hw_timer.h:
 
-C:/esp/Lab3/main/tests.h:
+C:/esp/lab3/main/tests.h:
 
-C:/esp/Lab3/main/I2C_UserMod.h:
+C:/esp/lab3/main/I2C_UserMod.h:
 
 C:/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/driver/i2c.h:
 
 C:/esp_sdk/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 
 C:/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h:
-/c/esp/Lab3/main/./user_main.c:
+/c/esp/lab3/main/./user_main.c:
